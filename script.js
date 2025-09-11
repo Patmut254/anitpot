@@ -38,3 +38,20 @@ function setTheme(mode){
 
 	localStorage.setItem('theme', mode)
 }
+const greetingElement = document.getElementById("greeting");
+const text = "Welcome to my portfolio!";
+let index = 0;
+
+function typeWriter() {
+    if (index < text.length) {
+        greetingElement.innerHTML += text.charAt(index);
+        index++;
+        setTimeout(typeWriter, 200);
+    } else {
+        greetingElement.innerHTML = "";
+        index = 0;
+        typeWriter();
+    }
+}
+
+typeWriter();
