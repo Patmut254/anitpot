@@ -149,7 +149,6 @@ h6 { font-size: 16px;}
 	background-color: black;
 	height: 15px;
 	width: 15px;
-	border-radius: 50%;
 	margin: 5px;
 
 	-webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
@@ -172,7 +171,6 @@ h6 { font-size: 16px;}
 	height: 200px;
 	width: 200px;
 	object-fit: cover;
-	border-radius: 50%;
 	border:2px solid var(--borderColor);
 }
 
@@ -186,7 +184,6 @@ h6 { font-size: 16px;}
 	height: 30px;
 	width: 30px;
 	background-color: black;
-	border-radius: 50%;
 
 	margin: 5px;
 	border:2px solid var(--themeDotBorder);
@@ -255,7 +252,6 @@ h6 { font-size: 16px;}
 .corner{
 	width:7px;
 	height: 7px;
-	border-radius: 50%;
 	border:1.5px solid #17a2b8;
 	background-color: #fff;
 	position: absolute;
